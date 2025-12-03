@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Personal Task Manager</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Personal Task Manager</h1>
+      <div class="search-bar">
+        <input id="searchInput" type="text" placeholder="Search tasks..." />
+      </div>
+    </header>
+    <main>
+      <div class="new-task">
+        <input id="taskInput" placeholder="Enter task..." />
+        <select id="prioritySelect">
+          <option value="low">Low</option>
+          <option value="medium" selected>Medium</option>
+          <option value="high">High</option>
+        </select>
+        <input id="dueDateInput" type="date" />
+        <button id="addBtn">Add Task</button>
+      </div>
+      <div class="filters">
+        <button id="filterAll" class="filter-btn active">All</button>
+        <button id="filterPending" class="filter-btn">Pending</button>
+        <button id="filterDone" class="filter-btn">Done</button>
+      </div>
+      <ul id="taskList"></ul>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
