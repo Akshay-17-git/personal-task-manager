@@ -96,12 +96,5 @@ A modern, interactive web-based task management application built with vanilla J
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 👨‍💻 Author
-
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
-
----
 
 *This project showcases modern web development skills and best practices, making it an excellent addition to any developer's portfolio.*
